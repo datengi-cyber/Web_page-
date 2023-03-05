@@ -1,0 +1,79 @@
+body {
+  font-size: 16px;
+  color: #333;
+  background-image: url(fint.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-color: rgb(143, 117, 67);
+  background-size: 100% 100%;
+  }
+  
+/* Style the navigation bar */
+nav {
+  background-color: #cac6b6;
+  padding: 1px;
+  margin-top: -7px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 85px;
+  height: 75px;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+nav a {
+  color: #ad4747;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav input.Search {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+/* Style the main content */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.para {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.para span {
+  color: #444;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* Style the footer */
+footer {
+  margin-top: 380px;
+  background-color: #ddd;
+  padding: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}

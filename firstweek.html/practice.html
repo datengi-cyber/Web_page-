@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Form Example</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea><br>
+
+      <button type="submit" onclick="submitForm()">Submit</button>
+    </form>
+
+    <script>
+      function submitForm() {
+        // Get the values from the form
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+
+        // Do something with the form data
+        console.error("Name: " + name);
+        console.error("Email: " + email);
+        console.error("Message: " + message);
+
+        // Clear the form
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+      }
+    </script>
+  </body>
+</html>
